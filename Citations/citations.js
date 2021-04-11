@@ -38,7 +38,7 @@ function choix(){
     document.getElementById("auteur") == `${auteur}`;
     photo.innerHTML = `<img src="${c3}" alt="" id="portrait">`;
 
-}
+} 
   
 button.onclick = () => { 
     choix();
