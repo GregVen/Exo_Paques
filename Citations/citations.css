@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to top right, rgb(3, 3, 102),rgb(79, 240, 79));
+    /* height: 100%; */
+    font-family: 'Josefin Sans', sans-serif;
+      }
+
+section {
+    text-align: center;
+    width: auto;
+    margin: 10%;
+      }
+
+.contenu{
+    background-color: beige; 
+    padding: 2vh;
+}
+
+#citation{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+    margin: 2rem 5rem;
+}
+
+#auteur{
+    text-align: right;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#portrait{
+    width: 10rem;
+	height: auto;
+    margin-bottom: 2rem;
+    border-radius: 25%;
+}
+
+#nouveau{
+    display:block;
+    margin-top: 2vh;
+    background-color:coral;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+}
+
+#nouveau:hover{
+    background-color:rgb(51, 95, 216);
+}

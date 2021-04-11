@@ -1,0 +1,43 @@
+
+h1{
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+    margin-bottom: 0px;
+    padding: 25px 0px;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: cadetblue;
+     }
+
+#infos{
+    padding: 50px 15px;
+
+}
+
+#textemot{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+#mot{
+    font-size: 3rem;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+h3 span{
+    color:darkred;
+}
+
+#badlettre {
+   color: red ;
+  
+}
