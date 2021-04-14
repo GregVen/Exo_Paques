@@ -1,5 +1,6 @@
+
+
 function game(){
-    
     location.href = './indexpendu.html'
 
     let mots_5 = ["abime","acide","acier","aider","aieul","aigle","aimer","album","alger","algue","aller","amour","angle","annee","appel","apres","arabe","arbre","arche","arete","arret","assez","assis","astre","atoll","atome","autre","avant","avion","avoir","avril","bague","balai","balle","bande","barbe","barre","baton","baver","bebes","belle","betes","biere","bijou","bille","bisou","blanc","blond","boire","boite","bosse","botte","bouee","boule","bourg","bruit","buche","cache","cadre","calin","calme","canal","canne","canon","carre","carte","casse","champ","chaud","chene","chien","chier","chose","chute","clair","clown","colle","conte","corde","corps","coude","court","crabe","craie","creux","crier","croix","cruel","cuire","cygne","dames","danse","debut","degre","diner","doigt","douze","droit","drole","duree","echec","ecole","ecran","eleve","engin","envie","epais","epoux","etain","etang","etude","evier","faire","faner","farce","faute","femme","ferme","fesse","filet","fille","finir","fleur","foire","fonce","force","foret","forme","frein","frere","frite","froid","front","fruit","fumee","fumer","fusee","fusil","futur","garer","geant","geler","gener","genie","genou","glace","golfe","gomme","gorge","grain","grand","grele","guepe","gueri","habit","hache","herbe","heure","hibou","hindi","hiver","homme","hotel","huile","image","islam","jambe","jaune","jeter","jeudi","jeune","jouer","jouet","jours","lacer","lacet","laine","lampe","lapin","large","larme","laser","latin","laver","leger","lepre","lever","ligne","linge","lisse","liste","litre","livre","loupe","lourd","lundi","lutin","macon","magie","mains","maman","mardi","marie","marin","masse","matin","melon","merde","metal","metre","micro","mieux","mille","mince","mixer","moins","monde","moule","moyen","nager","nappe","navet","neige","neveu","niece","noyau","nuage","obeir","objet","ocean","odeur","œuvre","ombre","oncle","ongle","orage","ordre","outil","paire","panda","panne","passe","pates","patte","payer","peche","pelle","penis","pente","perle","peser","petit","photo","pieds","place","plage","plein","plier","pluie","plume","poche","poele","poids","poing","point","poire","pomme","pompe","poney","porte","poser","poste","pouce","poule","preau","prune","punir","puree","quand","queue","radio","radis","ramer","rampe","raper","raser","rater","rayon","reine","repas","rever","riche","roche","rouge","route","ruban","rugby","russe","sable","salir","salle","sante","sapin","savon","seize","serre","siege","signe","silex","singe","soupe","sourd","sport","stylo","sucer","sucre","suite","tabac","table","tache","taire","talon","tante","taper","tapis","tarte","tasse","tater","taupe","temps","tenir","tente","terre","teter","tigre","tirer","tissu","titre","tonne","tordu","train","trait","trier","trois","troll","trous","tuyau","unite","usine","utile","vache","vagin","vague","venir","verre","veste","veuve","vider","vieux","ville","vingt","vitre","vivre","voile","voler","volet","vulve","wagon","zebre"];
@@ -18,23 +19,27 @@ function game(){
     let button = document.querySelector('#bouton');
     let photoPendu = document.querySelector('#imagePendu');
     let texteFinal = document.querySelector('#texteFin');
+    let nbLettres;
     let button5 = document.querySelector('#cinq');
-    let button6 = document.querySelector('#six');
-    // let button7 = document.querySelector('#sept');
-    // let button8 = document.querySelector('#huit');
-    // let button9 = document.querySelector('#neuf');
-    // let button10 = document.querySelector('#dix');
-    
+
     function difficulte(){
         
+        // location.href = './indexpendu.html'
+        // let nbLettres
+        // let button5 = document.querySelector('#cinq');
+        // let button6 = document.querySelector('#six');
+        // let button7 = document.querySelector('#sept');
+        // let button8 = document.querySelector('#huit');
+        // let button9 = document.querySelector('#neuf');
+        // let button10 = document.querySelector('#dix');
+
         button5.onclick = () => { 
-            newGame(5);
+        nbLettres = 5;
+        console.log(nbLettres);
+        newGame(nbLettres);
+        // return nbLettres;  
         };
-
-        button6.onclick = () => { 
-            newGame(6);
-        };
-
+    
         // do{
         // level = prompt(`Vous voulez jouer avec combien de lettres:\n
         // 1: 5 lettres\n
@@ -72,7 +77,7 @@ function game(){
         //         newGame(10);
         //         break;
         //     default:    
-        //         alert(`Attention, le pc va bruler`)
+        //         alert(`Attention, le pc va brulé`)
         // }
     }
         
@@ -107,9 +112,7 @@ function game(){
             mot = mots_10[index];
         }
 
-        // let hasard = parseInt(Math.random() * (mots_7.length - 0) + 0);
-        // mot = mots_7[hasard];
-
+        
         console.log(mot);
         for(i = 0; i < mot.length; i++){
             tableauLettre[i] = "-";

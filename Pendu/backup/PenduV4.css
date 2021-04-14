@@ -7,33 +7,6 @@ h1{
     padding: 25px 0px;
 }
 
-#acceuil{
-    text-align: center;
-    /* width: auto; */
-    background-color: cadetblue;
-    height: auto;
-    padding-bottom: 4rem;
-}
-
-#titreaccueil{
-    padding-top: 3rem;
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-bottom: 4rem;
-}
-
-#selection p{
-    background-color: grey;
-    padding: 1rem 2rem;
-    width: 12rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#selection p:hover{
-    background-color: khaki;
-}
-
 section {
     text-align: center;
     display: flex;
