@@ -1,8 +1,6 @@
 
 
 function game(){
-    location.href = './indexpendu.html'
-
     let mots_5 = ["abime","acide","acier","aider","aieul","aigle","aimer","album","alger","algue","aller","amour","angle","annee","appel","apres","arabe","arbre","arche","arete","arret","assez","assis","astre","atoll","atome","autre","avant","avion","avoir","avril","bague","balai","balle","bande","barbe","barre","baton","baver","bebes","belle","betes","biere","bijou","bille","bisou","blanc","blond","boire","boite","bosse","botte","bouee","boule","bourg","bruit","buche","cache","cadre","calin","calme","canal","canne","canon","carre","carte","casse","champ","chaud","chene","chien","chier","chose","chute","clair","clown","colle","conte","corde","corps","coude","court","crabe","craie","creux","crier","croix","cruel","cuire","cygne","dames","danse","debut","degre","diner","doigt","douze","droit","drole","duree","echec","ecole","ecran","eleve","engin","envie","epais","epoux","etain","etang","etude","evier","faire","faner","farce","faute","femme","ferme","fesse","filet","fille","finir","fleur","foire","fonce","force","foret","forme","frein","frere","frite","froid","front","fruit","fumee","fumer","fusee","fusil","futur","garer","geant","geler","gener","genie","genou","glace","golfe","gomme","gorge","grain","grand","grele","guepe","gueri","habit","hache","herbe","heure","hibou","hindi","hiver","homme","hotel","huile","image","islam","jambe","jaune","jeter","jeudi","jeune","jouer","jouet","jours","lacer","lacet","laine","lampe","lapin","large","larme","laser","latin","laver","leger","lepre","lever","ligne","linge","lisse","liste","litre","livre","loupe","lourd","lundi","lutin","macon","magie","mains","maman","mardi","marie","marin","masse","matin","melon","merde","metal","metre","micro","mieux","mille","mince","mixer","moins","monde","moule","moyen","nager","nappe","navet","neige","neveu","niece","noyau","nuage","obeir","objet","ocean","odeur","œuvre","ombre","oncle","ongle","orage","ordre","outil","paire","panda","panne","passe","pates","patte","payer","peche","pelle","penis","pente","perle","peser","petit","photo","pieds","place","plage","plein","plier","pluie","plume","poche","poele","poids","poing","point","poire","pomme","pompe","poney","porte","poser","poste","pouce","poule","preau","prune","punir","puree","quand","queue","radio","radis","ramer","rampe","raper","raser","rater","rayon","reine","repas","rever","riche","roche","rouge","route","ruban","rugby","russe","sable","salir","salle","sante","sapin","savon","seize","serre","siege","signe","silex","singe","soupe","sourd","sport","stylo","sucer","sucre","suite","tabac","table","tache","taire","talon","tante","taper","tapis","tarte","tasse","tater","taupe","temps","tenir","tente","terre","teter","tigre","tirer","tissu","titre","tonne","tordu","train","trait","trier","trois","troll","trous","tuyau","unite","usine","utile","vache","vagin","vague","venir","verre","veste","veuve","vider","vieux","ville","vingt","vitre","vivre","voile","voler","volet","vulve","wagon","zebre"];
     let mots_6 = ["absent","acteur","action","adroit","adulte","agacer","agiter","agneau","alcool","amener","amuser","ananas","ancien","animal","anorak","argent","autant","auteur","autour","autrui","avaler","avance","avoine","bagage","baiser","balcon","ballon","banane","barque","barrer","bassin","batard","bateau","battre","bavoir","bercer","betail","betise","beurre","billet","bonbon","bondir","bonnet","bosser","bottes","bouche","bouder","bouger","bouton","bronze","brosse","bruler","bulles","bureau","cabane","cacher","cadeau","cahier","caisse","calcul","camion","camper","canape","canard","cancer","canyon","carnet","cartes","carton","casier","casque","casser","cecite","centre","cercle","cerise","chaine","chaise","chance","chemin","cheval","cheveu","chevre","chiant","chimie","cinema","cirque","citron","classe","cloche","cochon","coffre","cogner","colere","coller","comete","contre","copain","copier","coquet","coquin","corail","coreen","couche","coudre","couper","courir","course","cousin","couter","couver","crayon","creche","crepes","croute","cuisse","cuivre","danger","danser","debout","dedans","dehors","demain","depart","desert","dessin","dessus","devant","devoir","dindon","doigts","domino","donner","dormir","douche","dragon","droite","droits","echecs","eclair","ecorce","ecrire","effort","eglise","elever","emploi","encore","encule","endive","enerve","enfant","enorme","entier","entree","entrer","envers","epaule","eponge","epouse","equipe","espace","esprit","etaler","etoile","etroit","europe","facher","facile","famine","farine","fermer","feutre","fievre","figure","flamme","flaque","fleche","fleuve","flocon","fourmi","fraise","frange","gagner","garage","garcon","garder","gateau","gauche","gendre","geneve","gentil","geyser","girafe","glacon","gourde","gouter","goutte","graine","gramme","granit","griffe","grotte","groupe","guerir","guerre","hameau","hanche","humain","humeur","humide","hurler","imiter","intrus","isthme","jaloux","jamais","jambes","jambon","jardin","joyeux","jumeau","jungle","lacher","lagune","laisse","laiton","lancer","langue","lavabo","lecher","legume","lettre","levier","levres","lezard","louche","madame","maigre","maison","maitre","malade","mamans","manche","manege","manger","marais","marche","mariee","marier","marron","masque","menage","menton","metier","mettre","meuble","milieu","minuit","minute","modele","moitie","moment","monter","montre","moquer","morale","mordre","moteur","mouche","moufle","moulin","mourir","mousse","mouton","muguet","muscle","naitre","navire","neiger","nombre","numero","offrir","oignon","oiseau","orange","orteil","ourdou","ouvrir","paille","palais","panier","papier","paquet","pardon","pareil","parent","parfum","parler","partie","partir","passer","pattes","pedale","peigne","penser","percer","perdre","persil","phoque","photon","pierre","pigeon","pilote","pincer","piquer","piqure","plaine","plaire","plante","platre","pliage","poesie","pointe","pointu","poison","police","porter","poster","potage","poulet","poulie","poumon","poupee","poutre","prenom","preter","preuve","prince","prises","priver","propre","proton","putain","puzzle","pyjama","quartz","quatre","quinze","raisin","raison","ramper","rangee","ranger","rapide","rasoir","rateau","rayure","regard","remuer","renard","rendre","requin","rester","retard","retour","reveil","revoir","rideau","rivage","rocher","ronger","rouler","saison","salade","salive","saluer","samedi","sauter","sauver","savoir","secher","sentir","serrer","servir","sieste","sirene","soldat","soleil","solide","sombre","sommet","sonner","sortie","sortir","souple","souris","sphynx","square","suivre","taille","tampon","tendre","tennis","ticket","timbre","tiroir","tomate","tomber","tortue","traire","treize","trente","tresor","tricot","triste","trouer","tulipe","tunnel","utopie","valise","vallee","vendre","venter","ventre","verbes","verite","verser","viande","violet","virage","visage","vivant","voisin","volcan","volume","voyage","yaourt","zigzag","zombie"];
     let mots_7 = ["abeille","abricot","abriter","acheter","adresse","affaire","affiche","afrique","ajouter","algebre","aliment","alliage","allumer","ampoule","amusant","analyse","ancetre","anglais","animaux","appeler","appetit","appuyer","armoire","arreter","arriere","arriver","arroser","article","asseoir","associe","astraux","automne","avancer","bagarre","baigner","bailler","baisser","balayer","baleine","barrage","barreau","bassine","bengali","biberon","bientot","bifteck","biscuit","bizarre","blesser","blottir","boisson","boucher","bouchon","bouquet","branche","briller","buisson","cabinet","cadenas","cagoule","caillou","caliner","caprice","caresse","carotte","carreau","cederom","celibat","cerceau","cereale","cerveau","chaises","chaleur","chambre","chameau","changer","chanson","chanter","chapeau","charger","chariot","chasser","chateau","chemise","chiffon","chiffre","chimere","chinois","choisir","cholera","cigogne","ciseaux","clocher","cocotte","coffret","coiffer","collant","collier","colline","combien","comment","compose","compter","connard","content","corbeau","coucher","couette","couleur","couloir","cousine","coussin","couteau","couvert","couvrir","cracher","crapaud","cravate","creuser","crochet","croiser","croquer","cuisine","culotte","curieux","cuvette","dauphin","decorer","defiler","demolir","dernier","dessert","dessous","detroit","diamant","dinette","divorce","docteur","dossier","doucher","drapeau","ecarter","echarpe","echasse","echelle","eclater","eclipse","ecouter","ecraser","effacer","effraye","egalite","element","emmener","endroit","energie","enfiler","enlever","ennuyer","envoler","envoyer","epingle","essayer","essence","essuyer","estomac","etagere","ethique","etudier","excuser","facteur","falaise","falloir","famille","fantome","fatigue","fenetre","fermier","feuille","fevrier","ficelle","flotter","frapper","fratrie","fromage","frotter","galaxie","galette","galoper","gardien","gentile","glacier","glisser","gobelet","gonfler","goudron","gouffre","gouttes","graines","grandir","gratter","gravite","griffer","griller","grimace","grimper","gronder","guetter","habiter","hamster","haricot","hauteur","hesiter","heureux","hopital","horloge","iceberg","immense","inonder","insecte","inviter","italien","janvier","jongler","journee","juillet","justice","laisser","langues","largeur","lecture","lessive","lexique","liberte","licorne","liquide","logique","lumiere","machine","magasin","magenta","maillot","maladie","manquer","manteau","marcher","mariage","marteau","matelas","matiere","mauvais","mechant","medecin","mesurer","million","mineral","modeler","moineau","monnaie","montrer","morceau","moucher","mouette","mouille","musique","neutron","nombres","nonante","nourrir","nouveau","nuageux","obesite","obliger","occuper","oceanie","octante","octobre","optique","oreille","oublier","ouragan","ouvrier","panneau","parasol","parente","parking","passage","patient","paysage","pecheur","pedaler","peindre","peluche","pencher","pendant","pendule","penseur","percher","petrole","pinceau","piscine","placard","plafond","planche","planete","planter","plateau","pleurer","plonger","poignet","poireau","poisson","pompier","pousser","poussin","pouvoir","prairie","premier","prendre","present","presque","presser","profond","prudent","quitter","racisme","realite","recette","reciter","reculer","refuser","regaler","remplir","rentree","rentrer","reparer","repeter","reposer","reptile","reussir","revenir","riviere","robinet","ronfler","roulade","rouleau","rugueux","saigner","saisons","sardine","seconde","secouer","semaine","semelle","separer","serieux","serpent","serrure","sexisme","siffler","sifflet","silence","soigner","sommeil","sourcil","sourire","souvent","suivant","surdite","surface","tableau","tablier","tailler","tambour","tartine","tempete","terrain","terrier","theorie","torchon","tornade","toucher","tourner","tousser","trainer","tranche","travail","travaux","tremper","tricher","tromper","trousse","trouver","tsunami","univers","vampire","variole","vegetal","village","visiter","vitesse","voiture","volonte","vouloir","voyager"];
@@ -19,70 +17,51 @@ function game(){
     let button = document.querySelector('#bouton');
     let photoPendu = document.querySelector('#imagePendu');
     let texteFinal = document.querySelector('#texteFin');
-    let nbLettres;
-    let button5 = document.querySelector('#cinq');
-
+    
     function difficulte(){
         
-        // location.href = './indexpendu.html'
-        // let nbLettres
-        // let button5 = document.querySelector('#cinq');
-        // let button6 = document.querySelector('#six');
-        // let button7 = document.querySelector('#sept');
-        // let button8 = document.querySelector('#huit');
-        // let button9 = document.querySelector('#neuf');
-        // let button10 = document.querySelector('#dix');
-
-        button5.onclick = () => { 
-        nbLettres = 5;
-        console.log(nbLettres);
-        newGame(nbLettres);
-        // return nbLettres;  
-        };
+        do{
+        level = prompt(`Vous voulez jouer avec combien de lettres:\n
+        1: 5 lettres\n
+        2: 6 lettres\n
+        3: 7 lettres\n
+        4: 8 lettres\n
+        5: 9 lettres\n
+        6: 10 lettres\n
+        `);
+        } while (level != "1" && level != "2" && level != "3" && level != "4" && level != "5" && level != "6");
     
-        // do{
-        // level = prompt(`Vous voulez jouer avec combien de lettres:\n
-        // 1: 5 lettres\n
-        // 2: 6 lettres\n
-        // 3: 7 lettres\n
-        // 4: 8 lettres\n
-        // 5: 9 lettres\n
-        // 6: 10 lettres\n
-        // `);
-        // } while (level != "1" && level != "2" && level != "3" && level != "4" && level != "5" && level != "6");
-    
-        // switch(level){
-        //     case "1": 
-        //         console.log('5lettres');
-        //         newGame(5);
-        //         break;
-        //     case "2": 
-        //         console.log('6lettres');
-        //         newGame(6);
-        //         break;
-        //     case "3": 
-        //         console.log('7lettres');
-        //         newGame(7);
-        //         break;
-        //     case "4": 
-        //         console.log('8lettres');
-        //         newGame(8);
-        //         break;
-        //     case "5": 
-        //         console.log('9lettres');
-        //         newGame(9);
-        //         break;
-        //     case "6": 
-        //         console.log('10lettres');
-        //         newGame(10);
-        //         break;
-        //     default:    
-        //         alert(`Attention, le pc va brulé`)
-        // }
+        switch(level){
+            case "1": 
+                console.log('5lettres');
+                newGame(5);
+                break;
+            case "2": 
+                console.log('6lettres');
+                newGame(6);
+                break;
+            case "3": 
+                console.log('7lettres');
+                newGame(7);
+                break;
+            case "4": 
+                console.log('8lettres');
+                newGame(8);
+                break;
+            case "5": 
+                console.log('9lettres');
+                newGame(9);
+                break;
+            case "6": 
+                console.log('10lettres');
+                newGame(10);
+                break;
+            default:    
+                alert(`Attention, le pc va brulé`)
+        }
     }
         
     function newGame(x){
-        location.href = './PenduV4.html';
         texteFinal.innerHTML = `<p> </p>`;/*met la valeur " " au p*/
         photoPendu.innerHTML = `<img src="./img/pendu000.png" alt="pendu">` ;
         
