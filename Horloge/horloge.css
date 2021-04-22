@@ -1,0 +1,28 @@
+ * {
+margin: 0;
+padding: 0;
+ }
+
+ div {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 4rem;
+    font-weight: bold;
+ }
+
+ p {
+     background-color:darkcyan;
+     color:darkred;
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1rem 0rem 1rem 0rem;
+     border-radius: 40px;
+ }
+
+ #clignote {
+     animation: clignote 1s infinite;
+ }
+ @keyframes clignote {  
+    100% { opacity: 0; }
+  }
